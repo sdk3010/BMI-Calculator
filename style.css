@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f3f5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header .icon {
+  font-size: 30px;
+}
+
+.header h1 {
+  margin: 10px 0;
+}
+
+.header p {
+  font-size: 14px;
+  color: #666;
+}
+
+.input-box {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+}
+
+.input-row span {
+  font-size: 14px;
+  color: #666;
+}
+
+#calculate-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#calculate-btn:hover {
+  background: #1e48b5;
+}
+
+.result-card {
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.bmi-value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f59e1b;
+}
+
+.bmi-category {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f59e1b;
+  margin-bottom: 10px;
+}
+
+.scale p {
+  font-size: 14px;
+  color: #444;
+  margin: 2px 0;
+}
+
+.result-card {
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+  transition: transform 0.2s ease-in-out;
+}
+
+.result-card:hover {
+  transform: translateY(-2px);
+}
