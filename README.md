@@ -6,7 +6,7 @@ BMI Calculator
 📷 Output:
 
 
-      ![image](https://github.com/user-attachments/assets/c5641e5d-ccd7-49ef-944b-474570cfa0a4)
+![image](https://github.com/user-attachments/assets/c5641e5d-ccd7-49ef-944b-474570cfa0a4)
       
 ![image](https://github.com/user-attachments/assets/d5e181e8-8ae1-460e-9555-599f0b1bcf30)
 
